@@ -28,7 +28,7 @@ savjeeCoin.addTransaction(tx2);
 savjeeCoin.minePendingTransactions(myWalletAddress);
 
 console.log();
-console.log(`Balance of xavier is ${savjeeCoin.getBalanceOfAddress(myWalletAddress)}`);
+console.log(`Balance of nick is ${savjeeCoin.getBalanceOfAddress(myWalletAddress)}`);
 
 // Uncomment this line if you want to test tampering with the chain
 // savjeeCoin.chain[1].transactions[0].amount = 10;
